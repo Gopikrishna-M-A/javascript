@@ -1,0 +1,20 @@
+- **Let var Const**
+- **loops (while, do while, for )**
+- **conditional statements (if else, switch, )**
+- **Arrow Functions**
+- **Template Literals**
+- **Default Parameters**
+- **Destructuring Assignment**
+- **Spread Operator**
+- **String Methods**
+    - **startsWith**
+    - **endsWith**
+    - **includes**
+- **Array Methods**
+    - **map**
+    - **filter**
+    - **reduce**
+    - **find**
+- **DOM Manipulation**
+- **Event Listeners**
+

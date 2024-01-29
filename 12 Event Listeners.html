@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listeners</title>
+</head>
+<body>
+    <button id="myButton">Click me!</button>
+
+    <script>
+        // Get the button element by ID
+        const buttonElement = document.getElementById('myButton');
+
+        // Add a click event listener to the button
+        buttonElement.addEventListener('click', function() {
+            alert('Button clicked!');
+        });
+
+        // Another example with input and change event
+        const inputElement = document.createElement('input');
+        document.body.appendChild(inputElement);
+
+        inputElement.addEventListener('change', function(event) {
+            alert(`Input value changed to: ${event.target.value}`);
+        });
+    </script>
+</body>
+</html>

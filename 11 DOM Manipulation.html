@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <h1 id="demo">Hello, DOM!</h1>
+
+    <script>
+        // Get the element by ID
+        const demoElement = document.getElementById('demo');
+
+        // Update the content of the element
+        demoElement.textContent = 'DOM Manipulation Example';
+
+        // Change the style of the element
+        demoElement.style.color = 'blue';
+        demoElement.style.fontSize = '24px';
+
+        // Create a new element
+        const newParagraph = document.createElement('p');
+        newParagraph.textContent = 'This is a new paragraph.';
+
+        // Append the new element to the body
+        document.body.appendChild(newParagraph);
+    </script>
+</body>
+</html>
